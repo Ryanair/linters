@@ -1,0 +1,36 @@
+{
+  "name": "eslint-config-ryanair",
+  "version": "0.0.0",
+  "description": "Ryanair ESLint config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanair/linters"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "ryanair",
+    "javascript",
+    "styleguide"
+  ],
+  "author": {
+    "name": "Fabrizio Fortunato",
+    "email": "fortune@cortesconta.net",
+    "url": "https://twitter.com/izifortune"
+  },
+  "contributors": [
+    {
+      "name": "George Christogiannopoulos",
+      "url": "https://github.com/gc23"
+    }
+  ],
+  "homepage": "https://github.com/ryanair/linters",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^4.14.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}

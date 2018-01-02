@@ -1,0 +1,44 @@
+{
+  "name": "stylelint-config-ryanair",
+  "version": "0.0.0",
+  "description": "Ryanair Stylelint config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanair/linters"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelintconfig",
+    "config",
+    "ryanair",
+    "scss",
+    "styleguide"
+  ],
+  "author": {
+    "name": "Fabrizio Fortunato",
+    "email": "fortune@cortesconta.net",
+    "url": "https://twitter.com/izifortune"
+  },
+  "contributors": [
+    {
+      "name": "Nikolaos Margaris",
+      "email": "reverence23@gmail.com"
+    },
+    {
+      "name": "Jakub Barczyk",
+      "url": "https://github.com/jakubbarczyk"
+    },
+    {
+      "name": "Łukasz Kufel",
+      "url": "https://github.com/qfel13"
+    }
+  ],
+  "homepage": "https://github.com/ryanair/linters",
+  "license": "MIT",
+  "dependencies": {
+    "stylelint-config-standard": "^18.0.0",
+    "stylelint-order": "^0.8.0",
+    "stylelint-selector-bem-pattern": "^2.0.0"
+  }
+}
