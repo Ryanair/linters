@@ -1,0 +1,77 @@
+0 silly input [ 'publish' ]
+1 silly flags { _: [ 'publish' ],
+1 silly flags   'reject-cycles': false,
+1 silly flags   rejectCycles: false,
+1 silly flags   'conventional-commits': true,
+1 silly flags   conventionalCommits: true }
+2 verbose rootPath /Users/fortunatof/code/github/linters
+3 info version 2.5.1
+4 info versioning independent
+5 silly isInitialized
+6 silly isInitialized true
+7 silly existsSync /Users/fortunatof/code/github/linters/VERSION
+8 silly initialize attempt
+9 silly isDetachedHead
+10 silly getCurrentBranch
+11 verbose getCurrentBranch master
+12 verbose isDetachedHead false
+13 silly getCurrentBranch
+14 verbose getCurrentBranch master
+15 silly getUpdates
+16 info Checking for updated packages...
+17 silly hasTags
+18 verbose hasTags true
+19 silly getLastTag
+20 verbose getLastTag eslint-config-ryanair@0.0.1
+21 info Comparing with eslint-config-ryanair@0.0.1.
+22 silly diffSinceIn eslint-config-ryanair@0.0.1 packages/javascript
+23 silly diff
+24 silly diffSinceIn eslint-config-ryanair@0.0.1 packages/style
+25 silly diff
+26 silly diffSinceIn eslint-config-ryanair@0.0.1 packages/typescript
+27 silly diff packages/typescript/README.md
+27 silly diff packages/typescript/angular.js
+27 silly diff packages/typescript/package-lock.json
+27 silly diff packages/typescript/package.json
+28 verbose updated tslint-config-ryanair
+29 info Checking for prereleased packages...
+30 silly collectDependents
+31 silly isPackageDependentOf eslint-config-ryanair tslint-config-ryanair
+32 silly isPackageDependentOf stylelint-config-ryanair tslint-config-ryanair
+33 silly isPackageDependentOf tslint-config-ryanair tslint-config-ryanair
+34 silly collectUpdates
+35 verbose has filtered update tslint-config-ryanair
+36 silly recommendIndependentVersion for tslint-config-ryanair at /Users/fortunatof/code/github/linters/packages/typescript
+37 verbose recommendIndependentVersion increment 0.0.1 by patch
+38 silly initialize success
+39 silly execute attempt
+40 silly runScriptSync preversion tslint-config-ryanair
+41 silly runScriptSync version tslint-config-ryanair
+42 silly updateIndependentChangelog for tslint-config-ryanair at /Users/fortunatof/code/github/linters/packages/typescript
+43 silly existsSync /Users/fortunatof/code/github/linters/packages/typescript/CHANGELOG.md
+44 silly readFileSync /Users/fortunatof/code/github/linters/packages/typescript/CHANGELOG.md
+45 silly updateIndependentChangelog writing new entry: "<a name=\"0.0.2\"></a>\n## [0.0.2](https://github.com/ryanair/linters/compare/tslint-config-ryanair@0.0.1...tslint-config-ryanair@0.0.2) (2018-01-16)\n\n\n### Bug Fixes\n\n* **tslint-config-ryanair:** codelyizer fix for angular applications ([c654d7a](https://github.com/ryanair/linters/commit/c654d7a))\n\n\n"
+46 silly writeFileSync [ '/Users/fortunatof/code/github/linters/packages/typescript/CHANGELOG.md',
+46 silly writeFileSync   '# Change Log\n\nAll notable changes to this project will be documented in this file.\nSee [Conventional Commits](https://conventionalcommits.org) for commit guidelines.\n\n<a name="0.0.2"></a>\n## [0.0.2](https://github.com/ryanair/linters/compare/tslint-config-ryanair@0.0.1...tslint-config-ryanair@0.0.2) (2018-01-16)\n\n\n### Bug Fixes\n\n* **tslint-config-ryanair:** codelyizer fix for angular applications ([c654d7a](https://github.com/ryanair/linters/commit/c654d7a))\n\n\n\n\n<a name="0.0.1"></a>\n## 0.0.1 (2018-01-03)\n\n\n### Bug Fixes\n\n* **Initial:** Initial commit ([a2870df](https://github.com/ryanair/linters/commit/a2870df))' ]
+47 verbose updateIndependentChangelog wrote /Users/fortunatof/code/github/linters/packages/typescript/CHANGELOG.md
+48 silly addFile /Users/fortunatof/code/github/linters/packages/typescript/CHANGELOG.md
+49 silly addFile /Users/fortunatof/code/github/linters/packages/typescript/package.json
+50 silly commit Publish
+50 silly commit
+50 silly commit  - tslint-config-ryanair@0.0.2
+51 verbose commit [ 'commit',
+51 verbose commit   '--no-gpg-sign',
+51 verbose commit   '-F',
+51 verbose commit   '/private/var/folders/1w/hfsjn0t92qz36ls7yw7qxksw7k1v66/T/d2f3c4b6-0f5d-40cf-a740-3605fbc98c33/lerna-commit.txt' ]
+52 silly addTag tslint-config-ryanair@0.0.2
+53 error execute caught error
+54 error Error: fatal: tag 'tslint-config-ryanair@0.0.2' already exists
+54 error
+54 error     at Function.module.exports.sync (/Users/fortunatof/code/github/linters/node_modules/execa/index.js:303:26)
+54 error     at Function.execSync (/Users/fortunatof/code/github/linters/node_modules/lerna/lib/ChildProcessUtilities.js:59:30)
+54 error     at Function.addTag (/Users/fortunatof/code/github/linters/node_modules/lerna/lib/GitUtilities.js:94:39)
+54 error     at /Users/fortunatof/code/github/linters/node_modules/lerna/lib/commands/PublishCommand.js:728:39
+54 error     at Array.forEach (<anonymous>)
+54 error     at PublishCommand.gitCommitAndTagVersionForUpdates (/Users/fortunatof/code/github/linters/node_modules/lerna/lib/commands/PublishCommand.js:727:12)
+54 error     at PublishCommand.commitAndTagUpdates (/Users/fortunatof/code/github/linters/node_modules/lerna/lib/commands/PublishCommand.js:702:26)
+54 error     at PublishCommand.execute (/Users/fortunatof/code/github/linters/node_modules/lerna/lib/commands/PublishCommand.js:307:14)

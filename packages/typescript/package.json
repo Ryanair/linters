@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-ryanair",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Ryanair TSLint config with angular support",
   "main": "index.js",
   "repository": {
