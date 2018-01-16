@@ -25,6 +25,10 @@ In your tslint then
 
 For angular projects instead
 
+```bash
+npm i --save-dev tslint-config-ryanair codelyzer
+```
+
 ```json
 {
   "extends": ["tslint-config-ryanair/angular"]

@@ -3,7 +3,7 @@ module.exports = {
     "./index.js"
   ],
   "rulesDirectory": [
-    "node_modules/codelyzer"
+    "codelyzer"
   ],
   "rules": {
     "component-class-suffix": true,
