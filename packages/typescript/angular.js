@@ -6,21 +6,36 @@ module.exports = {
     "codelyzer"
   ],
   "rules": {
-    "component-class-suffix": true,
-    // "component-selector": [true, "element", "my", "kebab-case"],
-    "directive-class-suffix": true,
-    // "directive-selector": [true, "attribute", "my", "camelCase"],
     "import-destructuring-spacing": true,
     "no-attribute-parameter-decorator": true,
     "no-forward-ref": true,
+    "no-shadowed-variable": true,
+    "directive-selector": [
+      true,
+      "attribute",
+      "app",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "app",
+      "kebab-case"
+    ],
+    "use-input-property-decorator": true,
+    "use-output-property-decorator": true,
+    "use-host-property-decorator": true,
     "no-input-rename": true,
     "no-output-rename": true,
-    "no-shadowed-variable": true,
-    // "pipe-naming": [true, "camelCase", "my"],
-    "use-host-property-decorator": true,
-    "use-input-property-decorator": true,
     "use-life-cycle-interface": true,
-    "use-output-property-decorator": true,
     "use-pipe-transform-interface": true,
+    "component-class-suffix": true,
+    "directive-class-suffix": true,
+    "no-access-missing-member": true,
+    "templates-use-public": true,
+    "invoke-injectable": true,
+    "deprecation": {
+      "severity": "warn"
+    }
   }
 };
