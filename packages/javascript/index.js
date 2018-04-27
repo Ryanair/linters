@@ -6,7 +6,7 @@ module.exports = {
     }
   },
   "rules": {
-    "comma-dangle": "off",
+    "comma-dangle": ["error", "never"],
     "max-len": ["error", 120, 2, {
       "ignoreUrls": true
     }],
