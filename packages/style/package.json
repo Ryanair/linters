@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-ryanair",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Ryanair Stylelint config",
   "main": "index.js",
   "repository": {
@@ -21,7 +21,8 @@
     "email": "fortune@cortesconta.net",
     "url": "https://twitter.com/izifortune"
   },
-  "contributors": [{
+  "contributors": [
+    {
       "name": "Nikolaos Margaris",
       "email": "reverence23@gmail.com"
     },
