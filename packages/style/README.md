@@ -1,21 +1,26 @@
-Ryanair stylelint linter for SCSS files.
+# Ryanair stylelint linter for SCSS files.
+[![npm version](https://img.shields.io/npm/v/stylelint-config-ryanair.svg)](https://www.npmjs.com/package/stylelint-config-ryanair)
 
-It extends the following linters:
+## Installation
 
-* [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard)
-* [stylelint-order](https://github.com/hudochenkov/stylelint-order)
-* [stylelint-selector-bem-pattern](https://github.com/simonsmith/stylelint-selector-bem-pattern)
-
-## How to use it
-
-```bash
-npm i --save-dev stylelint-config-ryanair
+#### NPM
+```
+npm i stylelint-config-ryanair --save-dev
 ```
 
-Then in your .stylelintrc
+#### Yarn
+```
+yarn add stylelint-config-ryanair -D
+```
 
-```json
+## Usage
+
+In your `.stylelintrc` add the following code:
+```
 {
   "extends": "stylelint-config-ryanair"
 }
 ```
+
+## License
+`MIT`
