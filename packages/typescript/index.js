@@ -1,7 +1,8 @@
 module.exports = {
   "extends": [
     "tslint:recommended",
-    "tslint-config-prettier"
+    "tslint-config-prettier",
+    "rxjs-tslint-rules"
   ],
   "rules": {
     "ban-types": {
@@ -55,6 +56,26 @@ module.exports = {
       "allow-pascal-case",
       "ban-keywords",
       "check-format"
-    ]
+    ],
+    // https://blog.angularindepth.com/rxjs-avoiding-takeuntil-leaks-fb5182d047ef
+    "rxjs-no-unsafe-takeuntil": true,
+    "rxjs-no-patched": {
+      "options": [
+        {
+          "allowObservables": false,
+          "allowOperators": false
+        }
+      ],
+      "severity": "error"
+    },
+    "rxjs-no-add": {
+      "options": [
+        {
+          "allowObservables": false,
+          "allowOperators": false
+        }
+      ],
+      "severity": "error"
+    }
   }
 };

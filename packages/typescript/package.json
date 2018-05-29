@@ -38,13 +38,14 @@
   "homepage": "https://github.com/ryanair/linters",
   "license": "MIT",
   "peerDependencies": {
-    "@angular/compiler": "^5.1.2",
-    "@angular/core": "^5.1.2",
+    "@angular/compiler": "^6.0.3",
+    "@angular/core": "^6.0.3",
     "codelyzer": "^4.0.2",
-    "rxjs": "^5.5.6",
+    "rxjs": "^6.2.0",
     "tslint": "^5.8.0",
     "typescript": "^2.6.2",
-    "zone.js": "^0.8.19"
+    "zone.js": "^0.8.19",
+    "rxjs-tslint-rules": "^4.3.0"
   },
   "dependencies": {
     "tslint-config-prettier": "^1.6.0"
