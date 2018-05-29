@@ -1,5 +1,5 @@
 <a name="0.0.0"></a>
-# 0.0.0 (2018-05-14)
+# 0.0.0 (2018-05-29)
 
 
 ### Bug Fixes
@@ -10,6 +10,11 @@
 
 
 * feat(Updated stylelint rules): ([78b295f](https://github.com/Ryanair/linters/commit/78b295f))
+
+
+### Features
+
+* **rxjs:** Added rxjs lint rules on typescript, updated peer dependencies ([567bfa3](https://github.com/Ryanair/linters/commit/567bfa3))
 
 
 ### BREAKING CHANGES
