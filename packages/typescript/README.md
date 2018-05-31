@@ -34,3 +34,11 @@ npm i --save-dev tslint-config-ryanair codelyzer
   "extends": ["tslint-config-ryanair/angular"]
 }
 ```
+
+In your tsconfig.json
+
+```json
+{
+  "extends": "./node_modules/tslint-config-ryanair/tsconfig.json"
+}
+```
