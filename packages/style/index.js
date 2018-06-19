@@ -119,7 +119,7 @@ module.exports = {
       "always",
       {
         "except": [
-          "inside-block"
+          "first-nested"
         ],
         "ignore": [
           "after-comment"
