@@ -41,7 +41,6 @@ module.exports = {
       true,
       "call-signature",
       "parameter",
-      "member-variable-declaration",
       "property-declaration"
     ],
     "quotemark": [
