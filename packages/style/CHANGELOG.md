@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/ryanair/linters/compare/stylelint-config-ryanair@1.0.0...stylelint-config-ryanair@2.0.0) (2018-07-20)
+
+
+### Features
+
+* **stylelint:** empty line before [@media](https://github.com/media) ([033b758](https://github.com/ryanair/linters/commit/033b758))
+
+
+### BREAKING CHANGES
+
+* **stylelint:** Changed stylelint rules
+
+
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/ryanair/linters/compare/stylelint-config-ryanair@0.0.1...stylelint-config-ryanair@1.0.0) (2018-05-14)
 
