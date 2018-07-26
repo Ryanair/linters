@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.0.0"></a>
+# [1.0.0](https://github.com/ryanair/linters/compare/eslint-config-ryanair@0.0.2...eslint-config-ryanair@1.0.0) (2018-07-26)
+
+
+### Features
+
+* **eslint-plugin-ryanair:** ESLint Ryanair plugin publish ([20daab4](https://github.com/ryanair/linters/commit/20daab4))
+
+
+### BREAKING CHANGES
+
+* **eslint-plugin-ryanair:** Packages folder names are changed, because of new systematic
+
+
+
+
 <a name="0.0.2"></a>
 ## [0.0.2](https://github.com/ryanair/linters/compare/eslint-config-ryanair@0.0.1...eslint-config-ryanair@0.0.2) (2018-05-08)
 

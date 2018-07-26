@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ryanair",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Ryanair ESLint config",
   "main": "index.js",
   "repository": {
