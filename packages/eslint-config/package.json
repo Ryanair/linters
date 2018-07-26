@@ -22,11 +22,21 @@
   },
   "contributors": [
     {
+      "name": "Maksym D.",
+      "email": "maksymddd@gmail.com",
+      "url": "https://github.com/maksymddd"
+    },
+    {
       "name": "George Christogiannopoulos",
       "url": "https://github.com/gc23"
+    },
+    {
+      "name": "Patryk Galuszka",
+      "email": "galuszka.patryk@gmail.com",
+      "url": "https://github.com/patrykgaluszka"
     }
   ],
-  "homepage": "https://github.com/ryanair/linters",
+  "homepage": "https://github.com/ryanair/linters/packages/javascript/eslint-config",
   "license": "MIT",
   "peerDependencies": {
     "eslint": "^4.14.0",

@@ -1,0 +1,44 @@
+{
+  "name": "eslint-plugin-ryanair",
+  "version": "0.0.1",
+  "description": "Ryanair ESLint custom rules",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "ryanair",
+    "javascript",
+    "styleguide"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanair/linters"
+  },
+  "author": {
+    "name": "Patryk Galuszka",
+    "email": "galuszka.patryk@gmail.com",
+    "url": "https://github.com/patrykgaluszka"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive",
+    "lint:js": "eslint ./lib",
+    "lint:ut": "eslint ./tests/lib"
+  },
+  "dependencies": {
+    "ramda": "^0.25.0",
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-ryanair": "0.0.2",
+    "eslint-plugin-import": "^2.13.0",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "homepage": "https://github.com/ryanair/linters/packages/javascript/eslint-plugin",
+  "license": "MIT"
+}
