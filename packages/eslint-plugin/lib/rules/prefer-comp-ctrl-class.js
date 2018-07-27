@@ -17,7 +17,8 @@ module.exports = {
     docs: {
       description: 'Prefer use of class for Angular component controller',
       category: 'AngularJS 1.7 migration',
-      recommended: true
+      recommended: true,
+      url: 'https://github.com/Ryanair/linters/blob/master/packages/eslint-plugin/docs/rules/prefer-comp-ctrl-class.md'
     },
     fixable: null,
     messages: {

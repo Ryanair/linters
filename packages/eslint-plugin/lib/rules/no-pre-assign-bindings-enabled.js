@@ -13,7 +13,8 @@ module.exports = {
     docs: {
       description: 'Disallow use of preAssignBindingsEnabled',
       category: 'AngularJS 1.7 migration',
-      recommended: true
+      recommended: true,
+      url: 'https://github.com/Ryanair/linters/blob/master/packages/eslint-plugin/docs/rules/no-pre-assign-bindings-enabled.md'
     },
     fixable: null,
     messages: {

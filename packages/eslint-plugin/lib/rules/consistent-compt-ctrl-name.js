@@ -40,7 +40,8 @@ module.exports = {
     docs: {
       description: 'Enforce consistent naming of AngularJS component controller',
       category: 'AngularJS stylistic issues',
-      recommended: true
+      recommended: true,
+      url: 'https://github.com/Ryanair/linters/blob/master/packages/eslint-plugin/docs/rules/consistent-compt-ctrl-name.md'
     },
     fixable: null,
     messages: {

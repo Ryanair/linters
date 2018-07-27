@@ -5,7 +5,7 @@
 //------------------------------------------------------------------------------
 // Requirements
 //------------------------------------------------------------------------------
-const { pipe, prop, find, path } = require('ramda');
+const { pipe, propOr, find, path } = require('ramda');
 const { getObjectPropertyValue } = require('../helpers/ast-utils');
 const { getComponentConfig, getDirectiveConfig, isModuleRegister } = require('../helpers/angularJs');
 
@@ -13,7 +13,7 @@ const { getComponentConfig, getDirectiveConfig, isModuleRegister } = require('..
 // Helpers
 //------------------------------------------------------------------------------
 const findTwoWayBinding = pipe(
-  prop('properties'),
+  propOr([], 'properties'),
   find((binding) => {
     const value = path(['value', 'value'], binding);
     return (value.indexOf('=') > -1);
@@ -38,7 +38,8 @@ module.exports = {
     docs: {
       description: 'Disallow use of two way bindings',
       category: 'AngularJS performance issues',
-      recommended: true
+      recommended: true,
+      url: 'https://github.com/Ryanair/linters/blob/master/packages/eslint-plugin/docs/rules/no-two-way-binding.md'
     },
     fixable: null,
     messages: {

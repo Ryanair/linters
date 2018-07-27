@@ -37,13 +37,13 @@ const getDirectiveConfig = pipe(
 /**
  * @function isModuleRegister
  * @description Checks if CallExpression is a AngularJS module's element registration
- * (ie. angulamodule().component())
+ * (ie. angular.module().component())
  * @param {string} element (ie. component, service, controller, directive)
  * @param {ASTNode} node (CallExpression)
  * @returns {boolean}
  */
 const isModuleRegister = (element, node) => {
-  const property = path(['callee', 'property'], node);
+  const property = pathOr({}, ['callee', 'property'], node);
   return isNamed(element, property) && findCalleeNamed('module', node) && isNamed('angular', getFinalCallee(node));
 };
 

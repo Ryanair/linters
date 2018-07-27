@@ -1,5 +1,5 @@
 /**
- * @fileoverview Enforce consistent naming of test test files
+ * @fileoverview Enforce consistent naming of test files
  * @author Patryk Galuszka
  */
 //------------------------------------------------------------------------------
@@ -38,7 +38,8 @@ module.exports = {
     docs: {
       description: 'Enforce consistent naming of test test files',
       category: 'Jasmine best practices',
-      recommended: true
+      recommended: true,
+      url: 'https://github.com/Ryanair/linters/blob/master/packages/eslint-plugin/docs/rules/consistent-test-filename.md'
     },
     fixable: null,
     messages: {
