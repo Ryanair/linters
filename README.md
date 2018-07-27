@@ -1,7 +1,13 @@
-A collection of linters used in Ryanair.
+# Ryanair linter
+A collection of configs and plugins (with custom rules) for linters used in Ryanair. In order to use them you need to follow instructions specific for a package.
 
-The repository includes:
+## List of contents
+### ESLint
+* [Config](./packages/eslint-config)
+* [Plugin](./packages/eslint-plugin)
 
-* [Typescript](./packages/typescript)
-* [Javascript](./packages/javascript)
-* [Style](./packages/style)
+### TSLint
+* [Config](./packages/eslint-config)
+
+### StyleLint
+* [Config](./packages/stylelint-config)
