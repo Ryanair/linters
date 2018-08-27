@@ -30,7 +30,8 @@ module.exports = {
     docs: {
       description: 'Prefer use of component over element directive',
       category: 'AngularJS 1.7 migration',
-      recommended: true
+      recommended: true,
+      url: 'https://github.com/Ryanair/linters/blob/master/packages/eslint-plugin/docs/rules/no-element-directive.md'
     },
     fixable: null,
     messages: {

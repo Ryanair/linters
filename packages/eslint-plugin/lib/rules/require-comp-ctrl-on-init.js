@@ -31,7 +31,8 @@ module.exports = {
     docs: {
       description: 'Require use of $onInit in Angular component',
       category: 'AngularJS 1.7 migration',
-      recommended: true
+      recommended: true,
+      url: 'https://github.com/Ryanair/linters/blob/master/packages/eslint-plugin/docs/rules/require-comp-ctrl-on-init.md'
     },
     fixable: null,
     messages: {
