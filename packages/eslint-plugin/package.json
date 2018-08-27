@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-ryanair",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ryanair ESLint custom rules",
   "keywords": [
     "eslint",
