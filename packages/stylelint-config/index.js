@@ -27,11 +27,10 @@ module.exports = {
           "/content/",
           "/each/",
           "/else/",
-          "/extend/",
           "/if/",
           "/include/",
-          "/mixin/",
-          "/media/"
+          "/media/",
+          "/mixin/"
         ]
       }
     ],
