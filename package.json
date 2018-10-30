@@ -15,10 +15,10 @@
     "release": "npm run changelog && lerna publish --conventional-commits"
   },
   "devDependencies": {
-    "commitizen": "^2.9.6",
-    "conventional-changelog": "^1.1.7",
+    "commitizen": "^3.0.4",
+    "conventional-changelog": "^2.0.3",
     "cz-conventional-changelog": "^2.1.0",
-    "lerna": "^2.5.1"
+    "lerna": "^3.4.3"
   },
   "config": {
     "commitizen": {

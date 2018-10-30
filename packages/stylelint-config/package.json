@@ -45,7 +45,7 @@
     "stylelint": "^8.1.1"
   },
   "dependencies": {
-    "stylelint-order": "^0.8.0",
+    "stylelint-order": "^1.0.0",
     "stylelint-selector-bem-pattern": "^2.0.0"
   }
 }
