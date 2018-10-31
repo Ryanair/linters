@@ -24,12 +24,13 @@ module.exports = {
       true,
       {
         "ignoreAtRules": [
+          "/content/",
           "/each/",
           "/else/",
           "/if/",
           "/include/",
-          "/mixin/",
-          "/media/"
+          "/media/",
+          "/mixin/"
         ]
       }
     ],
