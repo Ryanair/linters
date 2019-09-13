@@ -1,9 +1,6 @@
 module.exports = {
-  "plugins": [
-    "stylelint-order",
-    "stylelint-selector-bem-pattern"
-  ],
-  "rules": {
+  plugins: ["stylelint-order", "stylelint-selector-bem-pattern"],
+  rules: {
     "color-no-invalid-hex": true,
     "font-family-no-duplicate-names": true,
     "font-family-no-missing-generic-family-keyword": true,
@@ -23,15 +20,7 @@ module.exports = {
     "at-rule-no-unknown": [
       true,
       {
-        "ignoreAtRules": [
-          "/content/",
-          "/each/",
-          "/else/",
-          "/if/",
-          "/include/",
-          "/media/",
-          "/mixin/"
-        ]
+        ignoreAtRules: ["/content/", "/each/", "/else/", "/if/", "/include/", "/media/", "/mixin/"]
       }
     ],
     "comment-no-empty": true,
@@ -41,7 +30,7 @@ module.exports = {
     "no-empty-source": true,
     "no-extra-semicolons": true,
     "no-invalid-double-slash-comments": true,
-    "color-named": "never",
+    "color-named": ["never", { ignore: ["inside-function"] }],
     "function-url-no-scheme-relative": true,
     "number-max-precision": 3,
     "shorthand-property-no-redundant-values": true,
@@ -105,7 +94,7 @@ module.exports = {
     "rule-empty-line-before": [
       "always",
       {
-        "ignore": ["after-comment", "inside-block"]
+        ignore: ["after-comment", "inside-block"]
       }
     ],
     "media-feature-colon-space-after": "always",
@@ -119,16 +108,9 @@ module.exports = {
     "at-rule-empty-line-before": [
       "always",
       {
-        "except": [
-          "first-nested"
-        ],
-        "ignore": [
-          "after-comment"
-        ],
-        "ignoreAtRules": [
-          "/include/",
-          "/import/"
-        ]
+        except: ["first-nested"],
+        ignore: ["after-comment"],
+        ignoreAtRules: ["/include/", "/import/"]
       }
     ],
     "at-rule-name-case": "lower",
@@ -138,20 +120,15 @@ module.exports = {
     "comment-empty-line-before": [
       "always",
       {
-        "ignore": [
-          "stylelint-commands"
-        ]
+        ignore: ["stylelint-commands"]
       }
     ],
     "comment-whitespace-inside": "always",
-    "indentation": 2,
+    indentation: 2,
     "max-empty-lines": 1,
     "no-eol-whitespace": true,
     "no-missing-end-of-source-newline": true,
     "order/properties-alphabetical-order": true,
-    "order/order": [
-      "custom-properties",
-      "declarations"
-    ]
+    "order/order": ["custom-properties", "declarations"]
   }
 };
