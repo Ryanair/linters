@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.1.0](https://github.com/ryanair/linters/compare/stylelint-config-ryanair@3.0.0...stylelint-config-ryanair@3.1.0) (2019-09-13)
+
+
+### Bug Fixes
+
+* **package-lock:** Updated package-lock.json to remove security warnings ([5c71555](https://github.com/ryanair/linters/commit/5c71555))
+
+
+### Features
+
+* **New stylelint rule:** New stylelint rule ([86b0957](https://github.com/ryanair/linters/commit/86b0957)), closes [#TP-9836](https://github.com/ryanair/linters/issues/TP-9836)
+* **stylelint:** Updated rules to ignore at content ([5061755](https://github.com/ryanair/linters/commit/5061755))
+* **stylelint:** Updated rules to ignore ats extend and content ([145d6e9](https://github.com/ryanair/linters/commit/145d6e9))
+
+
+
+
+
 <a name="3.0.0"></a>
 # [3.0.0](https://github.com/ryanair/linters/compare/stylelint-config-ryanair@2.0.0...stylelint-config-ryanair@3.0.0) (2018-07-26)
 

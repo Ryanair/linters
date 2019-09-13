@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1](https://github.com/ryanair/linters/compare/eslint-config-ryanair@1.0.0...eslint-config-ryanair@1.0.1) (2019-09-13)
+
+
+### Bug Fixes
+
+* **package-lock:** Updated package-lock.json to remove security warnings ([5c71555](https://github.com/ryanair/linters/commit/5c71555))
+
+
+
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/ryanair/linters/compare/eslint-config-ryanair@0.0.2...eslint-config-ryanair@1.0.0) (2018-07-26)
 
