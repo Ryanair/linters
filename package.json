@@ -12,7 +12,7 @@
   "scripts": {
     "cz": "git-cz",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add .",
-    "release": "npm run changelog && lerna publish --conventional-commits"
+    "release": "lerna publish --conventional-commits"
   },
   "devDependencies": {
     "commitizen": "^3.0.4",
