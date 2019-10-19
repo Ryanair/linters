@@ -7,7 +7,7 @@ A collection of configs and plugins (with custom rules) for linters used in Ryan
 * [Plugin](./packages/eslint-plugin)
 
 ### TSLint
-* [Config](./packages/eslint-config)
+* [Config](./packages/tslint-config)
 
 ### StyleLint
 * [Config](./packages/stylelint-config)
