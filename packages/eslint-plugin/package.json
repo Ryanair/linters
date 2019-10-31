@@ -26,15 +26,15 @@
     "lint:ut": "eslint ./tests/lib"
   },
   "dependencies": {
-    "ramda": "^0.25.0",
+    "ramda": "^0.26.1",
     "requireindex": "~1.2.0"
   },
   "devDependencies": {
-    "eslint": "^5.8.0",
-    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-ryanair": "^1.0.1",
-    "eslint-plugin-import": "^2.13.0",
-    "mocha": "^5.2.0"
+    "eslint-plugin-import": "^2.18.2",
+    "mocha": "^6.2.2"
   },
   "engines": {
     "node": ">=8.0.0"
