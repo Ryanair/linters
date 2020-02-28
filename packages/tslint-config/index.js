@@ -5,6 +5,13 @@ module.exports = {
     "rxjs-tslint-rules"
   ],
   "rules": {
+    "import-blacklist": [
+      true,
+      "date-fns",
+      "date-fns/esm",
+      "ramda",
+      "ramda/es"
+    ],
     "ban-types": {
       "options": [
         ["Object", "Avoid using the `Object` type. Did you mean `object`?"],
