@@ -12,19 +12,19 @@
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-      "project": "./tsconfig.eslint.json",
-      "debugLevel": "true",
-      "sourceType": "module"
+    "project": "./tsconfig.eslint.json",
+    "debugLevel": "true",
+    "sourceType": "module"
   },
   "plugins": [
-      "eslint-plugin-jsdoc",
-      "eslint-plugin-prefer-arrow",
-      "eslint-plugin-import",
-      "eslint-plugin-rxjs",
-      "ordered-imports",
-      "@angular-eslint/eslint-plugin",
-      "@typescript-eslint",
-      "@typescript-eslint/tslint"
+    "eslint-plugin-jsdoc",
+    "eslint-plugin-prefer-arrow",
+    "eslint-plugin-import",
+    "eslint-plugin-rxjs",
+    "ordered-imports",
+    "@angular-eslint/eslint-plugin",
+    "@typescript-eslint",
+    "@typescript-eslint/tslint"
   ],
   "rules": {
     "@angular-eslint/component-class-suffix": "error",
@@ -35,47 +35,47 @@
     "@angular-eslint/use-pipe-transform-interface": "error",
     "@typescript-eslint/adjacent-overload-signatures": "error",
     "@typescript-eslint/array-type": [
-        "warn",
-        {
-            "default": "array"
-        }
+      "warn",
+      {
+        "default": "array"
+      }
     ],
     "@typescript-eslint/ban-types": [
-        "warn",
-        {
-            "types": {
-                "Object": {
-                    "message": "Avoid using the `Object` type. Did you mean `object`?"
-                },
-                "Boolean": {
-                    "message": "Avoid using the `Boolean` type. Did you mean `boolean`?"
-                },
-                "Number": {
-                    "message": "Avoid using the `Number` type. Did you mean `number`?"
-                },
-                "String": {
-                    "message": "Avoid using the `String` type. Did you mean `string`?"
-                },
-                "Symbol": {
-                    "message": "Avoid using the `Symbol` type. Did you mean `symbol`?"
-                },
-            }
+      "warn",
+      {
+        "types": {
+          "Object": {
+            "message": "Avoid using the `Object` type. Did you mean `object`?"
+          },
+          "Boolean": {
+            "message": "Avoid using the `Boolean` type. Did you mean `boolean`?"
+          },
+          "Number": {
+            "message": "Avoid using the `Number` type. Did you mean `number`?"
+          },
+          "String": {
+            "message": "Avoid using the `String` type. Did you mean `string`?"
+          },
+          "Symbol": {
+            "message": "Avoid using the `Symbol` type. Did you mean `symbol`?"
+          }
         }
+      }
     ],
     "@typescript-eslint/consistent-type-assertions": "error",
     "@typescript-eslint/dot-notation": "off",
     "@typescript-eslint/member-delimiter-style": [
-        "off",
-        {
-            "multiline": {
-                "delimiter": "none",
-                "requireLast": true
-            },
-            "singleline": {
-                "delimiter": "semi",
-                "requireLast": false
-            }
+      "off",
+      {
+        "multiline": {
+          "delimiter": "none",
+          "requireLast": true
+        },
+        "singleline": {
+          "delimiter": "semi",
+          "requireLast": false
         }
+      }
     ],
     "@typescript-eslint/naming-convention": [
       "error",
@@ -95,15 +95,15 @@
     "@typescript-eslint/no-namespace": "error",
     "@typescript-eslint/no-parameter-properties": "off",
     "@typescript-eslint/no-shadow": [
-        "error",
-        {
-            "hoist": "all"
-        }
+      "error",
+      {
+        "hoist": "all"
+      }
     ],
     "@typescript-eslint/no-unused-expressions": [
       "error",
       {
-        "allowTernary": true,
+        "allowTernary": true
       }
     ],
     "@typescript-eslint/no-use-before-define": "warn",
@@ -112,56 +112,41 @@
     "@typescript-eslint/prefer-function-type": "error",
     "@typescript-eslint/prefer-namespace-keyword": "error",
     "@typescript-eslint/quotes": [
-        "error",
-        "single",
-        {
-            "allowTemplateLiterals": true,
-            "avoidEscape": true
-        }
+      "error",
+      "single",
+      {
+        "allowTemplateLiterals": true,
+        "avoidEscape": true
+      }
     ],
-    "@typescript-eslint/semi": [
-        "off",
-        null
-    ],
+    "@typescript-eslint/semi": ["off", null],
     "@typescript-eslint/triple-slash-reference": [
-        "error",
-        {
-            "path": "always",
-            "types": "prefer-import",
-            "lib": "always"
-        }
+      "error",
+      {
+        "path": "always",
+        "types": "prefer-import",
+        "lib": "always"
+      }
     ],
     "@typescript-eslint/unified-signatures": "error",
-    "arrow-parens": [
-        "off",
-        "always"
-    ],
-    "brace-style": [
-        "off",
-        "off"
-    ],
-    "comma-dangle": [
-        "off",
-        "always-multiline"
-    ],
+    "arrow-parens": ["off", "always"],
+    "brace-style": ["off", "off"],
+    "comma-dangle": ["off", "always-multiline"],
     "complexity": "off",
     "constructor-super": "error",
-    "eqeqeq": [
-        "error",
-        "smart"
-    ],
+    "eqeqeq": ["error", "smart"],
     "function-paren-newline": "off",
     "guard-for-in": "error",
     "id-blacklist": [
-        "error",
-        "any",
-        "Number",
-        "String",
-        "string",
-        "Boolean",
-        "boolean",
-        "Undefined",
-        "undefined"
+      "error",
+      "any",
+      "Number",
+      "String",
+      "string",
+      "Boolean",
+      "boolean",
+      "Undefined",
+      "undefined"
     ],
     "id-match": "error",
     "import/no-deprecated": "warn",
@@ -187,9 +172,7 @@
         "ObjectExpression": 1,
         "ImportDeclaration": 1,
         "flatTernaryExpressions": false,
-        "ignoredNodes": [
-          "ConditionalExpression"
-        ],
+        "ignoredNodes": ["ConditionalExpression"],
         "ignoreComments": false
       }
     ],
@@ -215,47 +198,44 @@
     ],
     "jsdoc/check-alignment": "error",
     "jsdoc/check-indentation": "error",
-    "jsdoc/newline-after-description": [
-      "error",
-      "never"
-    ],
+    "jsdoc/newline-after-description": ["error", "never"],
     "max-classes-per-file": "off",
     "max-len": [
-        "error",
-        {
-            "code": 100
-        }
+      "error",
+      {
+        "code": 100
+      }
     ],
     "no-bitwise": "error",
     "no-caller": "error",
     "no-cond-assign": "error",
     "no-console": [
-        "error",
-        {
-            "allow": [
-                "log",
-                "warn",
-                "dir",
-                "timeLog",
-                "assert",
-                "clear",
-                "count",
-                "countReset",
-                "group",
-                "groupEnd",
-                "table",
-                "debug",
-                "info",
-                "dirxml",
-                "error",
-                "groupCollapsed",
-                "Console",
-                "profile",
-                "profileEnd",
-                "timeStamp",
-                "context"
-            ]
-        }
+      "error",
+      {
+        "allow": [
+          "log",
+          "warn",
+          "dir",
+          "timeLog",
+          "assert",
+          "clear",
+          "count",
+          "countReset",
+          "group",
+          "groupEnd",
+          "table",
+          "debug",
+          "info",
+          "dirxml",
+          "error",
+          "groupCollapsed",
+          "Console",
+          "profile",
+          "profileEnd",
+          "timeStamp",
+          "context"
+        ]
+      }
     ],
     "no-debugger": "error",
     "no-empty": "error",
@@ -264,10 +244,7 @@
     "no-invalid-this": "off",
     "no-irregular-whitespace": "off",
     "no-new-wrappers": "error",
-    "no-restricted-imports": [
-        "error",
-        "ramda"
-    ],
+    "no-restricted-imports": ["error", "ramda"],
     "no-throw-literal": "error",
     "no-trailing-spaces": "error",
     "no-undef-init": "error",
@@ -292,28 +269,18 @@
     ],
     "no-var": "error",
     "object-shorthand": "error",
-    "one-var": [
-        "error",
-        "never"
-    ],
-    "prefer-arrow/prefer-arrow-functions": [
-      "warn"
-    ],
+    "one-var": ["error", "never"],
+    "prefer-arrow/prefer-arrow-functions": ["warn"],
     "prefer-const": "error",
     "radix": "error",
     "rxjs/no-unsafe-takeuntil": "error",
-    "space-in-parens": [
-        "off",
-        "never"
-    ],
+    "space-in-parens": ["off", "never"],
     "spaced-comment": [
-        "error",
-        "always",
-        {
-            "markers": [
-                "/"
-            ]
-        }
+      "error",
+      "always",
+      {
+        "markers": ["/"]
+      }
     ],
     "use-isnan": "error",
     "valid-typeof": "off",
