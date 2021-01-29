@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-ryanair",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Ryanair ESLint custom rules",
   "keywords": [
     "eslint",
@@ -36,8 +36,8 @@
     "@typescript-eslint/parser": "^4.14.0",
     "eslint": "^5.8.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-config-ryanair": "^1.0.1",
     "eslint-config-prettier": "^7.2.0",
+    "eslint-config-ryanair": "^1.0.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsdoc": "^31.0.8",
     "eslint-plugin-ordered-imports": "^0.4.1",
