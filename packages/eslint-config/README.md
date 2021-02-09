@@ -1,14 +1,25 @@
 Ryanair javascript linter.
-Its a custom linter that extends:
-[eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base)
 
 ## How to use it
 
 ```bash
-npm i --save-dev eslint eslint-config-airbnb-base eslint-plugin-import eslint-config-ryanair
+npm i --save-dev
+    @angular-eslint/eslint-plugin
+    @typescript-eslint/eslint-plugin
+    @typescript-eslint/eslint-plugin-tslint
+    @typescript-eslint/parser
+    eslint
+    eslint-config-prettier
+    eslint-config-ryanair
+    eslint-plugin-import
+    eslint-plugin-jsdoc
+    eslint-plugin-ordered-imports
+    eslint-plugin-prefer-arrow
+    eslint-plugin-rxjs
 ```
 
 Then in your .eslintrc
+
 ```json
 {
   "extends": "eslint-config-ryanair"
