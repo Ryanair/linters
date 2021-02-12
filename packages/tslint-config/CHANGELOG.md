@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/ryanair/linters/compare/tslint-config-ryanair@1.0.0...tslint-config-ryanair@3.0.0) (2021-02-12)
+
+
+### chore
+
+* **tslint-config:** ensure default blacklist ([bbf0dd4](https://github.com/ryanair/linters/commit/bbf0dd4d8cf559865cb1574fd0d8027ae4f7aae3))
+
+
+### BREAKING CHANGES
+
+* **tslint-config:** may require you to update ramda and date-fns imports
+
+
+
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/ryanair/linters/compare/tslint-config-ryanair@0.2.0...tslint-config-ryanair@1.0.0) (2018-07-26)
 

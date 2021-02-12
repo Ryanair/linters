@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/ryanair/linters/compare/eslint-config-ryanair@1.0.1...eslint-config-ryanair@1.1.0) (2021-02-12)
+
+
+### Features
+
+* **eslint-plugin:** Migrated eslint rules from plugin to eslint config ([7a26c41](https://github.com/ryanair/linters/commit/7a26c416c195aeb3d81be0f558a6e666a8956d73))
+* **eslint-plugin:** Removed airbnb-rule and updated readme.md ([06ee160](https://github.com/ryanair/linters/commit/06ee160f7f381905fece88b62ddc51d285c81d57))
+
+
+
+
+
 ## [1.0.1](https://github.com/ryanair/linters/compare/eslint-config-ryanair@1.0.0...eslint-config-ryanair@1.0.1) (2019-09-13)
 
 

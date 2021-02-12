@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.1](https://github.com/ryanair/linters/compare/stylelint-config-ryanair@3.1.0...stylelint-config-ryanair@4.0.1) (2021-02-12)
+
+**Note:** Version bump only for package stylelint-config-ryanair
+
+
+
+
+
 # [3.1.0](https://github.com/ryanair/linters/compare/stylelint-config-ryanair@3.0.0...stylelint-config-ryanair@3.1.0) (2019-09-13)
 
 
