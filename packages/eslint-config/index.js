@@ -22,7 +22,6 @@ module.exports = {
     "new-cap": "off",
     "import/no-extraneous-dependencies": "off",
     "no-mixed-operators": "warn",
-    "no-underscore-dangle": ["error", { allow: ["__", "_satellite"] }],
     "@angular-eslint/component-class-suffix": "error",
     "@angular-eslint/directive-class-suffix": "error",
     "@angular-eslint/no-forward-ref": "error",
