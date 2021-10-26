@@ -1,7 +1,7 @@
 {
-  "name": "eslint-plugin-ryanair",
+  "name": "eslint-plugin-ryanair-typescript",
   "version": "0.0.0",
-  "description": "Ryanair's custom eslint rules.",
+  "description": "Ryanair's custom eslint rules for TypeScript.",
   "keywords": [
     "eslint",
     "eslintplugin",
