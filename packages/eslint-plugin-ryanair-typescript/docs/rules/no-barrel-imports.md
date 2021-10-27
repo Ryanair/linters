@@ -4,13 +4,11 @@
 
 ## Setup
 
-You need to add the parser [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint), ryanair plugin and this rule in your eslint configuration file.
+This rule takes no configuration parameters.
 
 ```json
 {
   "eslintConfig": {
-    "parser": "@typescript-eslint/parser",
-    "plugins": ["ryanair"],
     "rules": {
       "ryanair/no-barrel-imports": "error"
     }

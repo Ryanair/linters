@@ -21,7 +21,7 @@ module.exports = {
       description: "Disallow imports from barrel files.",
       category: "Angular compiler issues",
       recommended: true,
-      url: "https://github.com/Ryanair/linters/blob/master/packages/eslint-plugin-ryanair/docs/rules/no-barrel-imports.md",
+      url: "https://github.com/Ryanair/linters/blob/master/packages/eslint-plugin-ryanair-typescript/docs/rules/no-barrel-imports.md",
     },
     fixable: null,
     schema: [],

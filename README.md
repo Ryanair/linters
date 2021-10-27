@@ -5,6 +5,7 @@ A collection of configs and plugins (with custom rules) for linters used in Ryan
 ### ESLint
 * [Config](./packages/eslint-config)
 * [Plugin](./packages/eslint-plugin)
+* [TypeScript plugin](./packages/eslint-plugin-ryanair-typescript)
 
 ### TSLint
 * [Config](./packages/tslint-config)
