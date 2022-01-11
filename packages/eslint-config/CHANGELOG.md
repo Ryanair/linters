@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/ryanair/linters/compare/eslint-config-ryanair@1.1.0...eslint-config-ryanair@1.2.0) (2022-01-11)
+
+
+### Features
+
+* **eslint-config:** Add prettier rule ([a800e92](https://github.com/ryanair/linters/commit/a800e921953f95d6fefa07f10026019ade023580))
+
+
+
+
+
 # [1.1.0](https://github.com/ryanair/linters/compare/eslint-config-ryanair@1.0.1...eslint-config-ryanair@1.1.0) (2021-02-12)
 
 
