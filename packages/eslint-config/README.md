@@ -53,3 +53,37 @@ In VSCode the config looks like this:
   }
 }
 ```
+
+## Overriding rules
+
+To override a rule, first ask yourself if you should create a pull request to this repository instead, then if the answer is no, add the rule in the overrides property.
+
+```json
+{
+  "overrides": [
+    {
+      "files": "*.ts",
+      "rules": {
+        "max-len": "off"
+      }
+    }
+  ]
+}
+```
+
+## Additional rules
+
+You can add this app specif rule, replacing "app" with your app prefix.
+
+```json
+{
+  "@angular-eslint/component-selector": [
+    "error",
+    {
+      "type": "element",
+      "prefix": "app",
+      "style": "kebab-case"
+    }
+  ]
+}
+```

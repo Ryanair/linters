@@ -3,6 +3,23 @@ module.exports = {
   ignorePatterns: ["projects/**/*"],
   overrides: [
     {
+      files: "*.js",
+      parserOptions: {
+        ecmaVersion: "latest",
+      },
+      rules: {
+        "prettier/prettier": [
+          "error",
+          {
+            printWidth: 100,
+            singleQuote: true,
+            trailingComma: "none",
+            arrowParens: "always",
+          },
+        ],
+      },
+    },
+    {
       files: ["*.ts"],
       parserOptions: {
         project: ["tsconfig.json"],
@@ -15,22 +32,6 @@ module.exports = {
         "plugin:prettier/recommended",
       ],
       rules: {
-        "@angular-eslint/directive-selector": [
-          "error",
-          {
-            type: "attribute",
-            prefix: "app",
-            style: "camelCase",
-          },
-        ],
-        "@angular-eslint/component-selector": [
-          "error",
-          {
-            type: "element",
-            prefix: "app",
-            style: "kebab-case",
-          },
-        ],
         "@angular-eslint/no-forward-ref": "error",
         "@typescript-eslint/adjacent-overload-signatures": "error",
         "@typescript-eslint/array-type": [
@@ -101,7 +102,7 @@ module.exports = {
         "@typescript-eslint/no-shadow": [
           "error",
           {
-            hoist: "all",
+            ignoreTypeValueShadow: true,
           },
         ],
         "@typescript-eslint/no-unused-expressions": [
@@ -134,14 +135,6 @@ module.exports = {
         ],
         "@typescript-eslint/unified-signatures": "error",
         "comma-dangle": ["error", "never"],
-        "max-len": [
-          "error",
-          120,
-          2,
-          {
-            ignoreUrls: true,
-          },
-        ],
         "no-restricted-syntax": "warn",
         "func-names": "off",
         "space-before-function-paren": "off",
@@ -176,15 +169,9 @@ module.exports = {
             "specifier-ordering": "any",
             "group-ordering": [
               {
-                name: "Core, Ryanair and third-party imports",
-                match:
-                  "^(@angular|@ryanair|ramda|rxjs|@?ng-?[a-zA-Z]+|date-fns|@herodev|(?:\\w+-?)*$)",
-                order: 20,
-              },
-              {
                 name: "Local imports",
-                match: "^(\\.|\\.\\.)",
-                order: 30,
+                match: "^(\\.|@common|@environment|@m|@d|@root|@g)",
+                order: 20,
               },
               {
                 name: "third-party",
@@ -251,14 +238,6 @@ module.exports = {
         ],
         "no-unsafe-finally": "error",
         "no-unused-labels": "error",
-        "no-unused-vars": [
-          "error",
-          {
-            args: "after-used",
-            argsIgnorePattern: "^_",
-            varsIgnorePattern: "^_",
-          },
-        ],
         "no-var": "error",
         "object-shorthand": "warn",
         "one-var": ["error", "never"],
@@ -270,13 +249,21 @@ module.exports = {
         "spaced-comment": "off",
         "use-isnan": "error",
         "valid-typeof": "off",
+        "@typescript-eslint/no-unused-vars": [
+          "error",
+          {
+            args: "after-used",
+            argsIgnorePattern: "^_",
+            varsIgnorePattern: "^_",
+          },
+        ],
         "prettier/prettier": [
           "error",
           {
             printWidth: 100,
             singleQuote: true,
             trailingComma: "none",
-            arrowParens: "avoid",
+            arrowParens: "always",
             overrides: [
               {
                 files: "*.scss",
@@ -290,16 +277,32 @@ module.exports = {
       },
     },
     {
+      files: ["*.spec.ts", "**/__mocks__/**/*.ts"],
+      rules: {
+        "@typescript-eslint/no-var-requires": "off",
+        "@angular-eslint/component-selector": "off",
+      },
+    },
+    {
       files: ["*.html"],
       extends: ["plugin:@angular-eslint/template/recommended"],
-      rules: {},
+      rules: {
+        "@angular-eslint/template/no-negated-async": "off",
+      },
     },
     {
       files: ["*.html"],
       excludedFiles: ["*inline-template-*.component.html"],
       extends: ["plugin:prettier/recommended"],
       rules: {
-        "prettier/prettier": ["error", { parser: "angular" }],
+        "prettier/prettier": [
+          "error",
+          {
+            parser: "angular",
+            printWidth: 100,
+            singleQuote: true,
+          },
+        ],
       },
     },
   ],
